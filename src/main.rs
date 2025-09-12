@@ -250,7 +250,7 @@ impl TextAnalyzer {
             insights.push(format!("TODOs/FIXMEs found: {}", todo_count));
         }
 
-        let code_lines = line_count - comments;
+        let _code_lines = line_count - comments;
         let comment_ratio = if line_count > 0 { 
             comments as f64 / line_count as f64 * 100.0 
         } else { 0.0 };

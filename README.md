@@ -1,6 +1,10 @@
 # Text Summarizer
 A command-line (CLI) tool written in Rust that analyzes text files and provides detailed summaries with statistics and insights. The tool detects file types and provides specialized analysis for different content formats.
 
+<div align="center">
+  <img src="assets/demo.gif" alt="Demo"/>
+</div>
+
 ## Features
 
 ### Supported File Types
